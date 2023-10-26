@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Generator</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Background Generator</h2>
+        <input type="color" id="color1" value="#ff5733">
+        <input type="color" id="color2" value="#6e45e2">
+        <select id="gradientType">
+            <option value="linear">Linear Gradient</option>
+            <option value="radial">Radial Gradient</option>
+        </select>
+        <h3>Generated CSS:</h3>
+        <p id="css">linear-gradient(to right, #ff5733, #6e45e2);</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
