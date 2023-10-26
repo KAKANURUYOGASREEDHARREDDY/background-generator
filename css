@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #ff5733, #6e45e2);
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+}
+
+input[type="color"] {
+    margin: 10px;
+}
+
+select {
+    margin: 10px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 18px;
+}
